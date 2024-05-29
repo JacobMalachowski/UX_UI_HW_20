@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+      </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--pulled from bootstrap component-->
         <!--Nav Bar Section-->
         <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link active" id="nav-text" aria-current="page" href="#">Active</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" id="nav-text" href="#">Link</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" id="nav-text" href="#">Link</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link disabled" id="nav-text">Disabled</a>
             </li>
         </ul>
         <!--Pulled from the HTML of the Bootstrap Jumbotron example-->
@@ -35,6 +38,8 @@
             </div>
           </div>
           </div>
+        <div class="page-container">
+        <div class="background">
         <!--Pulled from the HTML of the Bootstrap Jumbotron example-->
         <!--Problem Statement Section-->
         <div class="row align-items-md-stretch">
@@ -53,26 +58,21 @@
             </div>
           </div>
         </div>
+        <div>
+          <h2>The Process</h2>
+          <p>With our app, we started from square one; we didn't have any previous app to work off of. With a lot of User research, we had a great place to start and remedied out lack of a starting point with things like a competitor analysis and a lot of mapping based on our interviews. After all of our research and Ideation, we created a clickable prototype which we ran through another round of testing. After that user testing, we iterated some more and made some better prototypes, integrating some features that our users wanted. After the research and the integration of different features, we ended up with a working, low fidelity prototype.</p>
+        </div>
+        </div>
         <!--Pulled from Bootstrap Cards component-->
         <!--Research Section-->
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Personal Website</h5>
-              <p class="card-text">Below is a button containing a link to my personal portffolio website:</p>
-              <a href="www.bronzedemon.org" class="btn btn-primary">Personal Site</a>
-            </div>
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Personal Website</h5>
+            <p class="card-text">Below is a button containing a link to my personal portffolio website:</p>
+            <a href="www.bronzedemon.org" class="btn btn-primary">Personal Site</a>
           </div>
-        <!--Pulled from Bootstrap Cards component-->
-        <!--Iteration Section-->
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        </div>
         <!--Pulled from Bootstrap col system component-->
         <!--prototype section-->
         <div class="container">

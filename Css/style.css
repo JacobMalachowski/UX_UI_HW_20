@@ -1,6 +1,46 @@
+@font-face {
+    font-family: "Outward";
+    src:url('fonts/outward-block-webfont.woff2')
+      format('woff2'),
+        url('fonts/outward-block-webfont.woff') 
+      format('woff'),
+        url('fonts/outward-block.ttf'),
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Lora";
+    src: url('fonts/Lora-SemiBoldItalic.ttf')
+    format('truetype');
+  }
+  
+  @font-face {
+    font-family: "Inter";
+    src: url('fonts/inter.ttc;')
+    format('trueType-collection');
+  }
+
+  @font-face {
+    font-family:"Space Grotesk";
+    src: url('Fonts\SpaceGrotesk-Bold.ttf')
+    format('trueType-collection');
+  }
+  
+
 body {
     padding:50px;
-    background-color: red;
+    background-color: #EFDC8F;
+}
+
+h2  {
+ font-family: "Inter";
+ padding-top: 3%;
+}
+
+p {
+    font-family: "Lora";
 }
 
 .nav justify-content-end{
@@ -9,21 +49,52 @@ body {
 
 .card{
     padding:50px;
+    margin-bottom: 20px;
+}
+
+.p-5 mb-4 bg-body-tertiary rounded-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FCDDC1;
+}
+
+.hero-splash{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
 }
 
 #hero-pic{
-    height:90px;
-    width: 90px;
-}
-
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    height:45%;
+    width: 45%;
 }
 
 .container-fluid py-5{
     display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: left;
+}
+
+
+#nav-text{
+    font-family: "Space Grotesk";
+    font-size: 100%;
+}
+
+.background{
+    background-color: #2A1818;
+    height:100%;
+    width:110%;
+    margin-left: -5%;
+    justify-content: center;
+    padding: 5%;
+}
+
+.page-container{
+    justify-content: center;
+}
+
+.row align-items-md-stretch{
+    justify-content: center;
 }
