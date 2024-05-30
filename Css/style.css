@@ -39,13 +39,15 @@ h2 {
  font-family: "Inter";
  padding-top: 3%;
  color:#a24d14;
- font-size: 250%;
+ font-size: 350%;
+ font-weight: bold;
 }
 
 
 p {
     font-family: "Lora";
     color:#a24d14;
+    font-size:125%;
 }
 
 .nav justify-content-end{
@@ -53,7 +55,6 @@ p {
 }
 
 .card{
-    padding:50px;
     margin-bottom: 20px;
 }
 
@@ -85,7 +86,9 @@ p {
 
 #nav-text{
     font-family: "Space Grotesk";
-    font-size: 100%;
+    font-size: 150%;
+    color:#a24d14;
+    text-decoration: underline;
 }
 
 #card{
@@ -135,4 +138,17 @@ h-100, p-5, bg-body-tertiary, border, rounded-3{
 .col{
   display:flex;
   justify-content: center;
+  flex-direction: column;
+  width: 45%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding:5%;
 }
