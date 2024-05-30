@@ -35,14 +35,17 @@ body {
     font-family: "Lora";
 }
 
-h2  {
+h2 {
  font-family: "Inter";
  padding-top: 3%;
+ color:#a24d14;
+ font-size: 250%;
 }
 
 
 p {
     font-family: "Lora";
+    color:#a24d14;
 }
 
 .nav justify-content-end{
@@ -65,6 +68,7 @@ p {
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
+    align-items:end;
 }
 
 #hero-pic{
@@ -94,12 +98,22 @@ p {
 
 
 .background{
+    display:flex;
     background-color: #2A1818;
     height:100%;
     width:110%;
     margin-left: -5%;
     justify-content: center;
     padding: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textWrapper{
+  display:flex;
+  width:70%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h-100, p-5, bg-body-tertiary, border, rounded-3{
