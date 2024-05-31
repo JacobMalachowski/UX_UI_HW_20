@@ -55,6 +55,10 @@ p {
     font-size:125%;
 }
 
+img{
+  width:80%;
+}
+
 .nav justify-content-end{
     padding:50px;
 }
@@ -94,10 +98,14 @@ p {
     font-size: 150%;
     color:#a24d14;
     text-decoration: underline;
+    font-weight:bold;
 }
 
 #card{
   background-color: #FCDDC1;
+  border-width: 5px;
+  border-color: #740E00;
+  border-radius: 30;
 }
 
 #card-text{
@@ -108,8 +116,8 @@ p {
 .background{
     display:flex;
     background-color: #2A1818;
-    height:100%;
-    width:110%;
+    height:60%;
+    width:108.5%;
     margin-left: -5%;
     justify-content: center;
     padding: 5%;
@@ -154,11 +162,100 @@ h-100, p-5, bg-body-tertiary, border, rounded-3{
 
 .container{
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   padding:5%;
+  width:fit-content;
+}
+
+#imgContainer{
+  display:flex;
+  justify-content: center;
 }
 
 #vector{
-  width: 50%;
   justify-content: right;
+  padding-left: 5%;
 }
+
+#imgOne{
+  padding-left:5%;
+}
+
+#center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imgFive{
+  width:50%;
+}
+
+#imgSix{
+  width:70%;
+}
+
+#postProto{
+  display:flex;
+  width:40%;
+  justify-content: center;
+  align-items: center;
+}
+
+#endPage{
+  margin-bottom: -5%;
+  padding-bottom: -10%;
+}
+
+.footer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:end;
+  padding-bottom:20px;
+  width:100%;
+  background-color: #2A1818;
+}
+
+.btn-primary{
+  background-color: #EDA32D;
+  color:#a24d14;
+  font-weight: bold;
+  border-color: #a24d14;
+}
+
+.frame-2{
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop-home-page .p{
+  color:#EDA32D;
+  font-size:30px;
+}
+
+.text-wrapper-4{
+  color:#EFDC8F;
+  font-family: "Lora";
+  font-style:italic;
+  font-size:17px;
+
+}
+
+.desktop-home-page .instagram-link{
+    position: center;
+}
+
+.inst-link-shrink{
+  display: flex;
+  height:87px;
+  width:87px;
+  Border-radius:20px;
+  background-color: #EDA32D;
+  justify-content: center;
+  align-items: center;
+  padding-left: 13px;
+}
+
