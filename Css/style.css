@@ -178,6 +178,11 @@ h-100, p-5, bg-body-tertiary, border, rounded-3{
   width:fit-content;
 }
 
+#imgEight{
+  display: flex;
+  flex-direction: column;
+}
+
 #imgContainer{
   display:flex;
   justify-content: center;
@@ -209,7 +214,7 @@ h-100, p-5, bg-body-tertiary, border, rounded-3{
 
 #postProto{
   display:flex;
-  width:40%;
+  width:95%;
   justify-content: center;
   align-items: center;
 }
